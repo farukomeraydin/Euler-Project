@@ -1,4 +1,4 @@
 # Euler-Project
-Solutions to problems in EulerProject website.
+This repo contains solutions of the problems in EulerProject website.
 
 Link: https://projecteuler.net/
