@@ -24,14 +24,14 @@ int main()
 	
 	if (number % 2 == 0) {
 		if (isprime_(number)) {
-			printf("%lli\n", number);
+			printf("Prime factor:%lli\n", number);
 			goto pass;
 		}
 		int i = 2;
 		while (i <= number)
 		{
 			if (isprime_(i) && (number % (long long)i) == 0) {
-				printf("%d\n", i);
+				printf("Prime Factor:%d\n", i);
 				number /= i;
 			}
 
@@ -40,14 +40,14 @@ int main()
 	}
 	if (number % 2 != 0) {
 		if (isprime_(number)) {
-			printf("%lli\n", number);
+			printf("Prime Factor:%lli\n", number);
 			goto pass;
 		}
 		int i = 3;
 		while (i <= number)
 		{
 			if (isprime_(i) && (number % (long long)i) == 0) {
-				printf("%d\n", i);
+				printf("Prime Factor:%d\n", i);
 				number /= i;
 			}
 
